@@ -5,6 +5,7 @@ This website is designed to help HKU students, staff, and visitors estimate how 
 For advanced users, clicking the button in the top-right corner allows you to modify the estimator's underlying parameters. You can customize the number of active elevators, the time intervals for quantile calculations, the service times, and the capacity parameters.
 
 Current Limitations
+
 Single-Variable Focus: The model assumes that the number of people waiting is the sole factor affecting wait times, omitting other potential real-world variables.
 
 Distribution Assumptions: It assumes that elevator service times follow an Exponentially Modified Gaussian (Exponormal) distribution and capacities follow a Weibull distribution, with each service period being independent and identically distributed (i.i.d.).
